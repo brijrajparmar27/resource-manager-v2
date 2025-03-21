@@ -2,7 +2,7 @@
 
 @layer components {
   .glass {
-    @apply bg-white/10 rounded-2xl shadow-lg backdrop-blur-xl border border-white/20;
+    @apply bg-black/30 rounded-2xl shadow-lg backdrop-blur-xl border border-white/20;
   }
   .traffic-light {
     @apply h-[12px] w-[12px] rounded-[100px];

@@ -1,4 +1,6 @@
 import './App.css';
+import BottomDock from './components/bottomDock/BottomDock';
+import TopDock from './components/topDock/TopDock';
 
 function App() {
   return (
@@ -10,7 +12,10 @@ function App() {
           <div className="traffic-light bg-green-500 undraggable"></div>
         </div>
       </div>
-      <div className=" w-full flex-1"></div>
+      <div className="w-full flex-1 flex flex-col">
+        <TopDock />
+        <BottomDock />
+      </div>
     </div>
   );
 }
